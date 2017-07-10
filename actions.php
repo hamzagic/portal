@@ -1,9 +1,8 @@
 <?php
 session_start();
-
 include "dbcon.php";
+$_SESSION['logged'] = false;
 
-//$_GET['action']="";
 if ($_GET['action'] == "loginSignup") {
 
 	//check if the email field is empty
@@ -108,7 +107,7 @@ if ($_GET['action'] == "loginSignup") {
 	if ($_GET['action'] == 'logout') {
 		unset($_SESSION['logged']);
 		session_unset();
-		
+
 	}
 	
 
