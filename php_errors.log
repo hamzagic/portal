@@ -1,0 +1,366 @@
+[09-Jul-2017 22:44:12 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 4
+[09-Jul-2017 22:49:40 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 4
+[09-Jul-2017 22:49:52 UTC] PHP Fatal error:  Cannot use [] for reading in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 4
+[09-Jul-2017 22:56:08 UTC] PHP Notice:  Undefined index: actions in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 4
+[09-Jul-2017 22:56:39 UTC] PHP Notice:  Undefined index: loginActive in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[09-Jul-2017 22:57:20 UTC] PHP Notice:  Undefined index: loginActive in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[09-Jul-2017 23:00:21 UTC] PHP Notice:  Undefined index: actions in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 4
+[09-Jul-2017 23:02:30 UTC] PHP Notice:  Undefined index: loginActive in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[09-Jul-2017 23:03:46 UTC] PHP Notice:  Undefined index: loginActive in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[09-Jul-2017 23:04:37 UTC] PHP Notice:  Undefined index: loginActive in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[09-Jul-2017 23:06:58 UTC] PHP Notice:  Undefined index: email in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[09-Jul-2017 23:26:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:26:52 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:27:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 8
+[09-Jul-2017 23:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_errno() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_errno() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_errno() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_errno() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_errno() in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:30 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[09-Jul-2017 23:32:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 8
+[09-Jul-2017 23:32:50 UTC] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, boolean given in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 10
+[10-Jul-2017 00:01:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 68
+[10-Jul-2017 00:05:18 UTC] PHP Notice:  Undefined index: email in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 32
+[10-Jul-2017 00:05:18 UTC] PHP Notice:  Undefined variable: POST in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 33
+[10-Jul-2017 00:12:29 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 70
+[10-Jul-2017 00:15:16 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 32
+[10-Jul-2017 00:20:40 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 32
+[10-Jul-2017 00:20:52 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 32
+[10-Jul-2017 00:58:53 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 84
+[10-Jul-2017 00:59:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 84
+[10-Jul-2017 00:59:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 84
+[10-Jul-2017 01:01:49 UTC] PHP Notice:  Undefined variable: email in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 69
+[10-Jul-2017 01:01:49 UTC] PHP Notice:  Undefined variable: pass in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 75
+[10-Jul-2017 01:01:49 UTC] PHP Notice:  Undefined variable: pass2 in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 75
+[10-Jul-2017 01:08:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 81
+[10-Jul-2017 01:11:44 UTC] PHP Notice:  Undefined variable: pass2 in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 79
+[10-Jul-2017 01:13:51 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 84
+[10-Jul-2017 01:25:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 104
+[10-Jul-2017 01:43:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 111
+[10-Jul-2017 02:37:10 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 02:38:19 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 5
+[10-Jul-2017 02:39:07 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 02:40:44 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 02:41:00 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 02:43:46 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 02:43:50 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 02:54:49 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 02:54:57 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 02:55:42 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 02:56:50 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 02:56:53 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 02:57:40 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 02:57:42 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 02:59:57 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 02:59:59 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 03:00:58 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:01:02 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\dbcon.php on line 17
+[10-Jul-2017 03:02:27 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:03:34 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:04:03 UTC] PHP Notice:  Undefined index: uid in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:05:01 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:05:14 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:05:15 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:06:51 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:07:21 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:07:23 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:08:00 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:08:02 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:08:13 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:11:15 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:11:17 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:19:50 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:19:50 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:20 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:20 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:21 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:20:22 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:20:22 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:21:11 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:21:11 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:21:31 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:21:31 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:21:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 03:21:33 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 49
+[10-Jul-2017 03:33:23 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 47
+[10-Jul-2017 03:33:54 UTC] PHP Notice:  Array to string conversion in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 03:34:09 UTC] PHP Fatal error:  Cannot use [] for reading in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 03:34:12 UTC] PHP Fatal error:  Cannot use [] for reading in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 03:43:46 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 03:44:57 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 106
+[10-Jul-2017 03:58:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 50
+[10-Jul-2017 04:08:27 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:09:07 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:09:19 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:09:36 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:10:20 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 102
+[10-Jul-2017 04:11:49 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:17:46 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:19:38 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:19:39 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:19:40 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:19:40 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:30 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:32 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:33 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:34 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:47 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:49 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:49 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:49 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:49 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:20:49 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:21:25 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:21:47 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:22:05 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:22:05 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:22:24 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:27:00 UTC] PHP Notice:  Undefined index: id in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 04:30:43 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:31:05 UTC] PHP Notice:  Undefined index: name in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:31:40 UTC] PHP Notice:  Undefined index: name in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:31:41 UTC] PHP Notice:  Undefined index: name in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:31:41 UTC] PHP Notice:  Undefined index: name in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:32:01 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:32:02 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:32:03 UTC] PHP Notice:  Undefined index: function in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 103
+[10-Jul-2017 04:35:50 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:03 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:05 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:05 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:12 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:32 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:36:50 UTC] PHP Notice:  Undefined index: value in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:37:42 UTC] PHP Notice:  Undefined index:  in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:40:21 UTC] PHP Notice:  Undefined index: login2 in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:43:25 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[10-Jul-2017 04:43:25 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:43:36 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 6
+[10-Jul-2017 04:52:11 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:55:01 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:55:02 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:55:02 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:56:21 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 04:56:34 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:58:24 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:59:21 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:59:21 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:59:40 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:59:41 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 04:59:48 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:01:38 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:01:40 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:01:41 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:01:42 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:02:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:48 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:57 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:57 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:57 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:57 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:05:57 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:27 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:06:51 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:07:47 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:08:44 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:08:55 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:09:13 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:09:14 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:09:14 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:09:14 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:09:15 UTC] PHP Notice:  Undefined index: mail in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 13
+[10-Jul-2017 05:10:03 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:11:03 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:11:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:11:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:11:24 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:12:16 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:12:16 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:12:17 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:13:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:13:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:13:05 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:16:16 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:16:17 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:17:02 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:17:15 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:17:36 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:17:36 UTC] PHP Notice:  Undefined index: id in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 05:19:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:20:53 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:55:51 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 54
+[10-Jul-2017 05:56:11 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:56:11 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 55
+[10-Jul-2017 05:57:26 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 55
+[10-Jul-2017 05:57:38 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 05:58:10 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:10:57 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 06:12:44 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 06:13:56 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 06:17:49 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:20:20 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:20:35 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:21:28 UTC] PHP Notice:  Undefined variable: _SESSION in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:23:13 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:24:21 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:25:05 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:25:05 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 06:25:56 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:27:07 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 45
+[10-Jul-2017 06:27:07 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 48
+[10-Jul-2017 06:27:26 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:31:38 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 06:31:38 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 54
+[10-Jul-2017 06:32:04 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
+[10-Jul-2017 06:33:29 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 51
+[10-Jul-2017 06:33:29 UTC] PHP Notice:  Undefined index: logged in C:\server\httpd\Apache24\htdocs\bootstrap\views\header.php on line 54
+[10-Jul-2017 06:33:37 UTC] PHP Notice:  Undefined index: action in C:\server\httpd\Apache24\htdocs\bootstrap\actions.php on line 7
