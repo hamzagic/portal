@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -54,13 +51,14 @@ session_start();
       <div class="navbar-form navbar-right"><?php print_r($_SESSION['logged']); ?>
 
       	<?php
+
       		if($_SESSION['logged']) { ?>
 
       			<a class='btn btn-default' href='?action=logout'>Logout</a>
       		   	
       		<?php   } else { ?>
 
-      		   	<button class='btn btn-default' data-toggle='modal' data-target='#myModal' id='poha'>Login/Signup</button>
+      		   	<button type="button" class='btn btn-default' data-toggle='modal' data-target='#myModal'>Login/Signup</button>
       		<?php   }  ?>
 
 
