@@ -48,11 +48,16 @@
       </ul>
         
       </ul>
-      <div class="navbar-form navbar-right"><?php print_r($_SESSION['logged']); ?>
+      <div class="navbar-form navbar-right"><?php print_r($_SESSION); 
+
+      if (isset($_COOKIES)) {
+        print_r($_COOKIES); 
+      }
+      ?>
 
       	<?php
 
-      		if($_SESSION['logged']) { ?>
+      		if(isset($_SESSION['logged'])) { ?>
 
       			<a class='btn btn-default' href='?action=logout'>Logout</a>
       		   	

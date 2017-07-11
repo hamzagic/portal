@@ -1,9 +1,10 @@
 <?php
 session_start();
 include "dbcon.php";
-$_SESSION['logged'] = false;
 
-if ($_GET['action'] == "loginSignup") {
+if (isset($_GET['action'])) {
+	
+	if ($_GET['action'] == "loginSignup") {
 
 	//check if the email field is empty
 
@@ -56,7 +57,7 @@ if ($_GET['action'] == "loginSignup") {
 
 						echo 1;
 						$_SESSION['logged'] = true;
-						//$_SESSION['id'] = mysqli_insert_id($con);
+						$_SESSION['id'] = mysqli_insert_id($con);
 						
 
 					} else {
@@ -91,7 +92,7 @@ if ($_GET['action'] == "loginSignup") {
 		if(password_verify($pass, $hash)) {
 
 			echo 1;
-			//$_SESSION['id'] = $row['uid'];
+			$_SESSION['id'] = $row['uid'];
 			$_SESSION['logged'] = true;
 
 
@@ -104,13 +105,17 @@ if ($_GET['action'] == "loginSignup") {
 	}
 
 	
-	if ($_GET['action'] == 'logout') {
-		unset($_SESSION['logged']);
-		session_unset();
-
-	}
 	
+	
+}
 
 		
 } 
+
+if ($_GET['action'] == 'logout') {
+		unset($_COOKIES);
+		session_destroy();
+		//header("Location: index.php");
+
+	} 
 ?>
