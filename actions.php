@@ -72,42 +72,42 @@ if (isset($_GET['action'])) {
 	
 	
 	//Login process 
-} else {
+	} else {
 
-	$email = mysqli_real_escape_string($con, $_POST['mail']);
-	$pass = mysqli_real_escape_string($con, $_POST['pass']);
-	
-
-	$query = "SELECT * FROM tb_super WHERE email = '$email'";
-
+		$email = mysqli_real_escape_string($con, $_POST['mail']);
+		$pass = mysqli_real_escape_string($con, $_POST['pass']);
 		
-		$result = mysqli_query($con, $query);
-		
-		$row = mysqli_fetch_assoc($result);
 
-		$hash = $row['pass'];
-
-		//if ($row['pass'] == $pass) {//for not hashed passwords
-
-		if(password_verify($pass, $hash)) {
-
-			echo 1;
-			$_SESSION['id'] = $row['uid'];
-			$_SESSION['logged'] = true;
-
-
-		} else {
-
-			echo "Your email or password is invalid. Please try again.";
-		}
+		$query = "SELECT * FROM tb_super WHERE email = '$email'";
 
 			
-	}
+			$result = mysqli_query($con, $query);
+			
+			$row = mysqli_fetch_assoc($result);
 
-	
-	
-	
-}
+			$hash = $row['pass'];
+
+			//if ($row['pass'] == $pass) {//for not hashed passwords
+
+			if(password_verify($pass, $hash)) {
+
+				echo 1;
+				$_SESSION['id'] = $row['uid'];
+				$_SESSION['logged'] = true;
+
+
+			} else {
+
+				echo "Your email or password is invalid. Please try again.";
+			}
+
+				
+		}
+
+		
+		
+		
+	}
 
 		
 } 
@@ -118,4 +118,26 @@ if ($_GET['action'] == 'logout') {
 		//header("Location: index.php");
 
 	} 
+
+
+function displayPosts($type) {
+
+	if ($type == 'public') {
+		$whatShows = "";
+	}
+global $con;
+	$query = "SELECT * FROM tb_posts ORDER BY postdate DESC".$whatShows;
+
+	$result = mysqli_query($con, $query);
+
+	if (mysqli_num_rows($result) == 0) {
+		echo "No posts to display";
+	} else {
+
+		while ($row = mysqli_fetch_assoc($result)) {
+			echo $row['post'];
+		}
+
+	}
+}
 ?>
