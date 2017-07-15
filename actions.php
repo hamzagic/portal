@@ -111,14 +111,39 @@ if (isset($_GET['action'])) {
 
 		
 } 
+if (isset($_GET['action'])) {
 
-if ($_GET['action'] == 'logout') {
+	if ($_GET['action'] == 'logout') {
 		unset($_COOKIES);
 		session_destroy();
 		//header("Location: index.php");
 
 	} 
 
+}
+
+function time_since($since) {
+    $chunks = array(
+        array(60 * 60 * 24 * 365 , 'year'),
+        array(60 * 60 * 24 * 30 , 'month'),
+        array(60 * 60 * 24 * 7, 'week'),
+        array(60 * 60 * 24 , 'day'),
+        array(60 * 60 , 'hour'),
+        array(60 , 'min'),
+        array(1 , 'sec')
+    );
+
+    for ($i = 0, $j = count($chunks); $i < $j; $i++) {
+        $seconds = $chunks[$i][0];
+        $name = $chunks[$i][1];
+        if (($count = floor($since / $seconds)) != 0) {
+            break;
+        }
+    }
+
+    $print = ($count == 1) ? '1 '.$name : "$count {$name}s";
+    return $print;
+}
 
 function displayPosts($type) {
 
@@ -126,7 +151,7 @@ function displayPosts($type) {
 		$whatShows = "";
 	}
 global $con;
-	$query = "SELECT * FROM tb_posts ORDER BY postdate DESC".$whatShows;
+	$query = "SELECT * FROM tb_posts ORDER BY postdate DESC LIMIT 10".$whatShows;
 
 	$result = mysqli_query($con, $query);
 
@@ -135,9 +160,25 @@ global $con;
 	} else {
 
 		while ($row = mysqli_fetch_assoc($result)) {
-			echo $row['post'];
+
+			
+			$queryUser = "SELECT * FROM tb_super WHERE uid = ".$row['userid'];
+			$result2 = mysqli_query($con, $queryUser);
+			$row2 = mysqli_fetch_assoc($result2);
+			
+			//print_r($row2);
+			echo "<p><div class='posts-view'>".$row2['email']."<span class='post-sent'>"." ".time_since(time() - strtotime($row['postdate']))." ago</span></p>";
+			//echo $row['userid'];
+			//echo "<br>";
+			echo "<p>".$row['posts']."<p>";
+
+			echo "<a>Follow</a></div>";
+
+
+
 		}
 
 	}
 }
+
 ?>

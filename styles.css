@@ -13,3 +13,17 @@
 	padding: 20px;
 	
 }
+
+.post-sent {
+
+	color: #c9c8c8;
+}
+
+.posts-view {
+
+	padding: 10px;
+	width: 400px;
+	border: 1px solid;
+	border-radius: 5px;
+	
+}
