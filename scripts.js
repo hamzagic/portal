@@ -51,3 +51,44 @@ $(document).ready(function(){
 
 })
 
+$(document).ready(function(){
+
+	$("#post-btn").click(function(){
+              //alert($("#posted").val());
+
+
+		var story = $("#posted").val();
+
+		$.ajax({
+
+			type: "POST",
+			url: 'actions.php?action=postStory',
+			data: "posted=" + $("#posted").val(),
+			//dataType: 'text',
+			success: function(result){
+
+				if (result == '1') {
+
+				$("#posted").val('');
+				window.location.assign('index.php?page=feed');
+
+
+				} else {
+
+					//alert(result);
+
+					$("#alertError").html(result).show();
+				}
+
+			}
+
+
+		 
+		});
+	})
+
+
+
+
+})
+

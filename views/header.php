@@ -38,10 +38,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Feed <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">My Tweets</a></li>
+        <li class="active"><a href="?page=feed">Feed <span class="sr-only">(current)</span></a></li>
+        <li><a href="?page=yourposts">My Posts</a></li>
         <ul class="nav navbar-nav navbar-left">
-        <li><a href="#">My Profile</a></li>
+        <li><a href="?page=profile">My Profile</a></li>
         
           </ul>
         </li>
@@ -59,11 +59,11 @@
 
       		if(isset($_SESSION['logged'])) { ?>
 
-      			<a class='btn btn-default' href='?action=logout'>Logout</a>
+      			<a class='btn btn-primary' href='?action=logout'>Logout</a>
       		   	
       		<?php   } else { ?>
 
-      		   	<button type="button" class='btn btn-default' data-toggle='modal' data-target='#myModal'>Login/Signup</button>
+      		   	<button type="button" class='btn btn-primary' data-toggle='modal' data-target='#myModal'>Login/Signup</button>
       		<?php   }  ?>
 
 

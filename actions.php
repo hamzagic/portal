@@ -114,8 +114,8 @@ if (isset($_GET['action'])) {
 if (isset($_GET['action'])) {
 
 	if ($_GET['action'] == 'logout') {
-		unset($_COOKIES);
-		session_destroy();
+		
+		session_unset();
 		//header("Location: index.php");
 
 	} 
@@ -148,14 +148,22 @@ function time_since($since) {
 function displayPosts($type) {
 
 	if ($type == 'public') {
+
 		$whatShows = "";
+
+	} else if ($type == 'private') {
+
+		$whatShows = 'WHERE userid = '.$_SESSION['id'];
 	}
+
 global $con;
-	$query = "SELECT * FROM tb_posts ORDER BY postdate DESC LIMIT 10".$whatShows;
+
+	$query = "SELECT * FROM tb_posts ".$whatShows." ORDER BY postdate DESC";
 
 	$result = mysqli_query($con, $query);
 
 	if (mysqli_num_rows($result) == 0) {
+
 		echo "No posts to display";
 	} else {
 
@@ -181,4 +189,50 @@ global $con;
 	}
 }
 
+function displaySearch() {
+
+
+}
+
+function writePost() {
+
+	if (isset($_SESSION['id'])) {
+		if ($_SESSION['id'] > 0) {
+			echo "<div class='form><span class='posts-write'>Write a post</span>
+<textarea class='form-control' rows='3' id='posted'></textarea>";
+	echo" <button class='btn btn-primary' id='post-btn'>Post</button></div>";
+		}
+		
+	}
+}
+
+if (isset($_GET['action'])) {
+	
+	if ($_GET['action'] == "postStory") {
+
+	
+		
+		if (!$_POST['posted']) {
+
+			echo "Your post is empty.";
+
+
+		} else if (strlen($_POST['posted']) > 141 ){
+
+		    echo "Your post is too long";
+
+		} else {
+
+			$posts = mysqli_real_escape_string($con, $_POST['posted']);
+			$poster = $_SESSION['id'];
+
+			$query = "INSERT INTO tb_posts (posts, userid, postdate) VALUES ('$posts', '$poster', NOW() )";
+			$result = mysqli_query($con, $query);
+
+			echo "1";
+
+		}
+	}
+
+}
 ?>
