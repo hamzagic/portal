@@ -50,14 +50,12 @@
       </ul>
       <div class="navbar-form navbar-right"><?php print_r($_SESSION); 
 
-      if (isset($_COOKIES)) {
-        print_r($_COOKIES); 
-      }
+      
       ?>
 
       	<?php
 
-      		if(isset($_SESSION['logged'])) { ?>
+      		if(isset($_SESSION['id'])) { ?>
 
       			<a class='btn btn-primary' href='?action=logout'>Logout</a>
       		   	

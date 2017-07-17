@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 				if (data == "1") {
 
-					window.location.assign('index.php?logged=true');
+					window.location.assign('index.php?page=feed');
 					
 			} else {
 

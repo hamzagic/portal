@@ -56,8 +56,10 @@ if (isset($_GET['action'])) {
 					if(mysqli_query($con, $query)) {
 
 						echo 1;
+						
 						$_SESSION['logged'] = true;
 						$_SESSION['id'] = mysqli_insert_id($con);
+					
 						
 
 					} else {
@@ -94,7 +96,8 @@ if (isset($_GET['action'])) {
 				echo 1;
 				$_SESSION['id'] = $row['uid'];
 				$_SESSION['logged'] = true;
-
+			
+				
 
 			} else {
 
@@ -111,12 +114,14 @@ if (isset($_GET['action'])) {
 
 		
 } 
+
+//logout
 if (isset($_GET['action'])) {
 
 	if ($_GET['action'] == 'logout') {
 		
 		session_unset();
-		//header("Location: index.php");
+		header("Location: index.php?page=feed");
 
 	} 
 
@@ -213,7 +218,13 @@ function displaySearch() {
 
 				echo "No results for your search. Try again.";
 		
-			} else {
+			} else if ($_GET['q'] == "") {
+
+				echo "Please type something to search.";
+			}
+
+
+			else {
 
 				while ($row = mysqli_fetch_assoc($result)) {
 
