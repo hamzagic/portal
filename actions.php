@@ -226,16 +226,17 @@ function displaySearch() {
 
 			else {
 
+				echo "<p class='results'>Showing results for <strong>".$question.":</strong></p>";
 				while ($row = mysqli_fetch_assoc($result)) {
 
 				$queryUser = "SELECT * FROM tb_super WHERE uid = ".$row['userid'];
 				$result2 = mysqli_query($con, $queryUser);
 				$row2 = mysqli_fetch_assoc($result2);
 			
-				echo "<p class='results'>Showing results for <strong>".$question.":</strong></p>";
+				
 				echo "<p><div class='posts-view'>".$row2['email']."<span class='post-sent'>"." ".time_since(time() - strtotime($row['postdate']))." ago</span></p>";
 				echo "<p>".$row['posts']."<p>";
-     			echo "<a>Follow</a></div>";
+     			echo "<a>View Profile</a></div>";
 
 			}
 
