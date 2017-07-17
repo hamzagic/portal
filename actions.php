@@ -221,7 +221,7 @@ function displaySearch() {
 				$result2 = mysqli_query($con, $queryUser);
 				$row2 = mysqli_fetch_assoc($result2);
 			
-			
+				echo "<p class='results'>Showing results for <strong>".$question.":</strong></p>";
 				echo "<p><div class='posts-view'>".$row2['email']."<span class='post-sent'>"." ".time_since(time() - strtotime($row['postdate']))." ago</span></p>";
 				echo "<p>".$row['posts']."<p>";
      			echo "<a>Follow</a></div>";
@@ -277,5 +277,27 @@ if (isset($_GET['action'])) {
 		}
 	}
 
+}
+
+
+function showProfile() {
+
+	if (isset($_SESSION['id'])) {
+		
+		global $con;
+		$user = mysqli_real_escape_string($con, $_SESSION['id']);
+
+		$query = "SELECT * FROM tb_super WHERE uid = '$user'";
+		$result = mysqli_query($con, $query);
+
+		if (mysqli_num_rows($result) > 0) {
+			
+			$row = mysqli_fetch_assoc($result);
+
+			echo "<p class='results'>Email: ".$row['email']."</p>";
+			//echo "<p class='results'>Email: ".$row['email']."</p>";
+
+		}
+	}
 }
 ?>

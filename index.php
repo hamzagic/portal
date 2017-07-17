@@ -14,7 +14,14 @@ if (isset($_GET['page'])) {
 
 		include 'views/search.php';
 
-	} else  {
+	} else if ($_GET['page'] == "profile") {
+
+		include 'views/profile.php';
+
+	}
+
+
+	else  {
 
 		include "views/body.php";
 		
