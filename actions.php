@@ -147,16 +147,23 @@ function time_since($since) {
 
 function displayPosts($type) {
 
+	global $con;
+	global $whatShows;
+
 	if ($type == 'public') {
 
 		$whatShows = "";
 
 	} else if ($type == 'private') {
 
-		$whatShows = 'WHERE userid = '.$_SESSION['id'];
+		if (isset($_SESSION['id'])) {
+					
+		$whatShows = " WHERE userid = ".$_SESSION['id'];
+
+		}
 	}
 
-global $con;
+
 
 	$query = "SELECT * FROM tb_posts ".$whatShows." ORDER BY postdate DESC";
 
@@ -165,6 +172,7 @@ global $con;
 	if (mysqli_num_rows($result) == 0) {
 
 		echo "No posts to display";
+
 	} else {
 
 		while ($row = mysqli_fetch_assoc($result)) {
@@ -191,6 +199,41 @@ global $con;
 
 function displaySearch() {
 
+	global $con;
+
+	if (isset($_GET['page'])) {
+		if ($_GET['page'] == 'search') {
+			
+			$question = mysqli_real_escape_string($con, $_GET['q']);
+
+			$query = "SELECT * FROM tb_posts WHERE posts LIKE '%".$question."%'";
+			$result = mysqli_query($con, $query);
+
+			if (mysqli_num_rows($result) == 0) {
+
+				echo "No results for your search. Try again.";
+		
+			} else {
+
+				while ($row = mysqli_fetch_assoc($result)) {
+
+				$queryUser = "SELECT * FROM tb_super WHERE uid = ".$row['userid'];
+				$result2 = mysqli_query($con, $queryUser);
+				$row2 = mysqli_fetch_assoc($result2);
+			
+			
+				echo "<p><div class='posts-view'>".$row2['email']."<span class='post-sent'>"." ".time_since(time() - strtotime($row['postdate']))." ago</span></p>";
+				echo "<p>".$row['posts']."<p>";
+     			echo "<a>Follow</a></div>";
+
+			}
+
+
+			}
+
+						
+		}
+	}
 
 }
 

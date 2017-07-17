@@ -10,15 +10,18 @@ if (isset($_GET['page'])) {
 
 		include 'views/yourposts.php';
 
-	} else if ($_GET['page'] == "profile") {
+	} else if ($_GET['page'] == "search") {
 
-		include "views/footer.php";
-		
-	} else {
+		include 'views/search.php';
+
+	} else  {
+
 		include "views/body.php";
+		
+	} 
+		
+	include "views/footer.php";
 
-	}
 }
-//include "views/body.php";
 
 ?>

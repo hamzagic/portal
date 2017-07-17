@@ -7,15 +7,14 @@
   	?>
   	</div>
   <div class="col-md-4" id="search">
-
-<div class="form-inline" >
+  <form class="form-inline" >
   <div class="form-group">
-    <label for="search">Posts</label>
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Search">
+  <input type="hidden" name="page" value="search">
+  <input type="text" name="q" class="form-control" id="sc" placeholder="Search">
   </div>
-   <button class="btn btn-primary" div="butha">Search</button>
+   <button type="submit" class="btn btn-primary" div="butha">Search</button>
+</form>
 
-</div>
 <hr>
 <div class="alert alert-danger" role="alert" id="alertError"></div>
 <?php writePost(); ?>

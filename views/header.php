@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">The Page</a>
+      <a class="navbar-brand" href="index.php?page=feed">The Page</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
